@@ -14,12 +14,11 @@ h4 {
 }
 
 
-li {
-    
+nav li {
+    border-style:dotted;
     border-color:#eee;
     color:#777;
     text-align:center;
-    text-decoration:none;
     display:inline-block;
 }
 .newspaper-container {
@@ -29,7 +28,11 @@ li {
     border-radius:12px;
     padding:20px;
 }
-
+nav li a {
+    padding:2px;
+    text-decoration:none;
+    color:#777
+}
 
 h5 {
 
